@@ -10,4 +10,5 @@ To use:
 - `ruby cal-code-parser.rb cacp Cal.Civ.` where `cacp` is the directory that contains the Code and `Cal.Civ.` is whatever citation style you want to use. For instance, omit `Cal.` if following the California Style Manual. 
 - In Sublime Text 3, the scope for each snippet is `text.lwd`. Save your file with that extension or change the template scope to the file extension of your choosing (`text.txt`, maybe).
 - To trigger the snippet for Cal. Code of Civil Procedure section 2023.020, type `cacp2023.020[TAB]`, which will expand to a full citation, skip a line below the cursor, and insert the full text of the provision.
+
 The benefit is rapid access to Code provisions, as you write, without switching focus to another application.
