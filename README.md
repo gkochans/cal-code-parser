@@ -3,7 +3,7 @@ Generate Sublime Text 3 snippets that insert formatted citations and the full te
 
 ![Screen capture of snippets in action.](http://www.gregkochansky.com/images/screen.gif "Screen capture of snippets in action.")
 
-The script generates `*.sublime-snippet` files for each numbered provision based on the full text of any California Code as reflected in the state's [FTP repository](ftp://www.leginfo.ca.gov/pub/code/).
+The script generates `*.sublime-snippet` files for each numbered provision based on the full text of any California Code as reflected in the state's FTP repository (<ftp://www.leginfo.ca.gov/pub/code/>).
 To use:
 - Download any Code directory via FTP. (The files are tiny, but there can be thousands of them, many of which contain multiple code provisions. I'm sticking with the Codes I actually need.)
 - `cal-code-parser.rb` goes in the same directory as the code directory, as in: `/dir/cal-code-parser.rb` and `/dir/code/`.
