@@ -11,4 +11,4 @@ To use:
 - In Sublime Text 3 (and maybe in version 2, also - I have no idea), the scope for each snippet is `text.lwd`. Save your file with that extension or change the template scope to the file extension of your choosing (`text.txt`, maybe).
 - To trigger the snippet for Code of Civil Procedure section 2023.020, type `cacp2023.020[TAB]`, which will expand to a full citation, skip a line below the cursor, and insert the full text of the provision.
 
-The benefit is immediate access to Code provisions, as you write, without switching focus to another application. I'm using this as part of a broader "integrated legal writing environment" in Sublime Text 3 that includes syntax highlighting, other snippets for case law, and Ruby-based templating engine to format citations and generate `*.docx` files.
+The benefit is immediate access to Code provisions, as you write, without switching focus to another application. I'm using this as part of a broader "integrated legal writing environment" in Sublime Text 3 that includes syntax highlighting, other snippets for case law, and a Ruby-based script that formats citations and injects XML into a `*.docx` template.
