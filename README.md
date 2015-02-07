@@ -7,8 +7,8 @@ The script generates `*.sublime-snippet` files for each numbered provision based
 To use:
 - Download any Code directory via FTP. (The files are tiny, but there can be thousands of them, many of which contain multiple code provisions. Perhaps a good idea to stick with the Codes you actually need.)
 - `cal-code-parser.rb` goes in the same directory as the code directory, as in: `/dir/cal-code-parser.rb` and `/dir/code/`.
-- `ruby cal-code-parser.rb cacp Cal.Civ.` where `cacp` is the directory that contains the Code and `Cal.Civ.` is whatever citation style you want to use. For instance, omit `Cal.` if following the California Style Manual. 
-- In Sublime Text 3, the scope for each snippet is `text.lwd`. Save your file with that extension or change the template scope to the file extension of your choosing (`text.txt`, maybe).
-- To trigger the snippet for Cal. Code of Civil Procedure section 2023.020, type `cacp2023.020[TAB]`, which will expand to a full citation, skip a line below the cursor, and insert the full text of the provision.
+- `ruby cal-code-parser.rb cacp Cal.Civ.` where `cacp` is the directory that contains the Code and `Cal.Civ.` is whatever citation style you want to use. For instance, omit `Cal.` if following the California Style Manual. Rename the `cacp` directory to whatever makes sense for you. The official directory is named `ccp`, but made it `cacp` to include the jurisdiction. 
+- In Sublime Text 3 (and maybe in version 2, also - I have no idea), the scope for each snippet is `text.lwd`. Save your file with that extension or change the template scope to the file extension of your choosing (`text.txt`, maybe).
+- To trigger the snippet for Code of Civil Procedure section 2023.020, type `cacp2023.020[TAB]`, which will expand to a full citation, skip a line below the cursor, and insert the full text of the provision.
 
-The benefit is rapid access to Code provisions, as you write, without switching focus to another application.
+The benefit is immediate access to Code provisions, as you write, without switching focus to another application. I'm using this as part of a broader "integrated legal writing environment" in Sublime Text 3 that includes syntax highlighting, other snippets for case law, and Ruby-based templating engine to format citations and generate `*.docx` files.
